@@ -1,0 +1,51 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. -->
+<!-- This file shows how to design a first-run page that provides a welcome screen to the user about the features of the add-in. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoso Task Pane Add-in</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui#/. -->
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"/>
+
+    <!-- Template styles -->
+    <link href="taskpane.css" rel="stylesheet" type="text/css" />
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.js"></script>
+</head>
+
+<body class="ms-font-m ms-welcome ms-Fabric">
+
+    <section class="samples ms-font-m">
+        <h3>Generate New</h3>
+        <div class="ms-TextField">
+            <label class="ms-Label">Enter a prompt: </label>
+            <input id="text-field" type="text" class="ms-TextField-field">
+        </div>
+        <br>
+        <button id="prepend" class="ms-Button">
+            <span class="ms-Button-label">Generate EMail</span>
+        </button>
+    </section>
+    <section class="samples ms-font-m">
+        <h3>Generate Response</h3>
+        <p>Select text to reply to, then push the acknowledgement buttons.</p>
+        <button id="get-selected-data" class="ms-Button">
+            <span class="ms-Button-label">Positive Acknowledgement</span>
+        </button>
+        <button id="neg-Ack-btn" class="ms-Button">
+            <span class="ms-Button-label">Negative Acknowledgement</span>
+        </button>
+    </section>
+</body>
+
+</html>
