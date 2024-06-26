@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background: rgb(141, 23, 220);
+    background: linear-gradient(90deg, rgba(141, 23, 220, 1) 0%, rgba(243, 9, 108, 0.8633578431372549) 26%, rgba(235, 22, 48, 1) 100%);
+    color: #333;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #0078d4;
+}
+
+/* Text field styling */
+.ms-TextField {
+    margin-bottom: 15px;
+}
+
+.ms-TextField-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    color: #333;
+    background-color: #ffe6e6;
+    height: calc(3 * 1.5em); 
+    line-height: 1.5em;
+    font-size: 1em;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.ms-Button {
+    background-color: #0078d4; /* Blue button background */
+    color: white; /* White button text */
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.ms-Button:hover {
+    background-color: #005a9e; /* Darker blue on hover */
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555; /* Gray color for paragraphs */
+}
+
+/* Label styling */
+.ms-Label {
+    color: #333; /* Dark gray color for labels */
+    margin-bottom: 40px;
+}
+
+img {
+    height: 25px;
+    width: 26px;
+    position:fixed;
+    left: 140px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
